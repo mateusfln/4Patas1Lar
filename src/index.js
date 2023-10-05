@@ -36,7 +36,7 @@ root.render(
       <Route path='/adoptionForm' element={<AdoptionForm/>}/>
       <Route path='/thanksForSend' element={<ThanksForSend/>}/>
       <Route path='/thanksForAdopt' element={<ThanksForAdopt/>}/>
-      <Route path='/*' element={<Error/>}/>
+      <Route path='/*' element={<Home/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
